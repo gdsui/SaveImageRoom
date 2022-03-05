@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(R.layout.activity_main)
+        //add some commit
         val url="/media/images/-1985073712profile.png"
         Log.d("onCreate: ", url)
        binding.imageView.load(url){
